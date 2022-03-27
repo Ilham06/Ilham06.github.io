@@ -264,7 +264,8 @@ a:hover {
 	margin-bottom: 30px;
 }
 
-.projects .description p {
+.projects .description p,
+.projects .description li {
 	font-size: 15px;
 }
 
