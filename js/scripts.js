@@ -75,4 +75,14 @@
 		$(this).blur();
 	});
 
+    // Gallery
+    document.addEventListener('click', function (e) {
+        if (e.target.classList.contains('project-selected')) {
+            let src = e.target.getAttribute('src');
+            document.querySelector('.modal-image').src = src
+
+            $('#lightBoxModal').modal('show')
+        }
+    })
+
 })(jQuery);
