@@ -23,6 +23,10 @@ a:hover {
 	text-decoration: none;
 }
 
+.font-secondary {
+    font-family: 'Pacifico', cursive;
+}
+
 .inner-icon {
 	position: absolute;
 	z-index: 104;
@@ -100,6 +104,10 @@ a:hover {
 
 .fa-stack:hover .fa-stack-2x {
     color: #ffffff;
+}
+
+.color-main {
+	color: #1E84EC !important;
 }
 
 
@@ -220,8 +228,22 @@ a:hover {
 	text-align: center;
 }
 
+.header .text-container {
+	padding: 0 20px;
+}
+
+.header p {
+	font-family: "Poppins";
+	font-weight: 400;
+}
+
+.header .title {
+	color: #FFF;
+	font-weight: 500;
+	font-size: 24px;
+}
+
 .header .h1-large {
-	margin-bottom: 20px;
 	font-size: 32px;
 	color: #ffffff;
 }
@@ -375,9 +397,13 @@ a:hover.back-to-top {
 @media (min-width: 992px) {
 
 	.header .h1-large {
-		margin-bottom: 20px;
 		font-size: 52px;
 		color: #ffffff;
+	}
+
+	.header .text-container {
+		padding-left: 0;
+		padding-right: 0;
 	}
 	
 	/* Navigation */
