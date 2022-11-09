@@ -102,12 +102,8 @@ a:hover {
 	transition: all 0.2s ease;
 }
 
-.fa-stack:hover .fa-stack-1x {
-	color: #1E84EC;
-}
-
 .fa-stack:hover .fa-stack-2x {
-    color: #ffffff;
+		transform: scale(1.1);
 }
 
 .color-main {
@@ -274,7 +270,7 @@ a:hover {
 	margin-left: 10px;
 }
 
-.about ul {
+/* .about ul {
 	list-style: none;
 	padding-left: 0;
 }
@@ -283,7 +279,7 @@ a:hover {
     content: "\2713";
     font-weight: bold;
     padding-right: 5px;
-}
+} */
 
 
 /********************/
