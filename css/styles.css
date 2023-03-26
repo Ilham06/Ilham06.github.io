@@ -162,12 +162,6 @@ a:hover {
 	transform: translateX(-100%);
 }
 
-/* .navbar-toggler.open {
-	visibility: visible;
-	-webkit-transform: translateX(-1000%);
-	transform: translateX(-1000%);
-} */
-
 .navbar .navbar-nav {
 	margin-top: 0.75rem;
 	margin-bottom: 0.5rem;
@@ -237,8 +231,7 @@ a:hover {
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url('../images/headerme.jpg') center center no-repeat;
 	background-size: cover;
 	text-align: center;
-	background-attachment: fixed;
-	background-position: left;
+	background-position: right;
 }
 
 .header .text-container {
@@ -481,6 +474,10 @@ a:hover.back-to-top {
 
 /* Min-width 992px */
 @media (min-width: 992px) {
+
+	.header {
+		background-attachment: fixed;
+	}
 
 	.header .h1-large {
 		font-size: 52px;
