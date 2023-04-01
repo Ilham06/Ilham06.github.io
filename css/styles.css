@@ -19,6 +19,26 @@ h6 {
 	font-family: "Poppins";
 }
 
+.badge {
+	font-size: 12px !important;
+	padding: 4px 12px !important;
+}
+
+.red-color {
+	background: #eb4432;
+	color: #FFF;
+}
+
+.yellow-color {
+	background: #f7df1e;
+	color: #24262a;
+}
+
+.sea-blue-color {
+	background: #00758F;
+	color: #FFF;
+}
+
 a {
 	color: #4d5055;
 	text-decoration: none;
@@ -115,6 +135,10 @@ a:hover {
 
 .color-main {
 	color: #1E84EC !important;
+}
+
+.referse {
+	flex-direction: row-reverse;
 }
 
 
@@ -303,8 +327,7 @@ a:hover {
 	margin-bottom: 30px;
 }
 
-.projects .description p,
-.projects .description li {
+.projects .description p {
 	font-size: 15px;
 }
 
@@ -315,7 +338,7 @@ a:hover {
 }
 
 .project-container img {
-	border-radius: 5px;
+	border-radius: .5em;
 	cursor: pointer;
 }
 
@@ -386,11 +409,11 @@ a:hover {
 	transition: .3s;
 	padding: 16px;
 	border-radius: 10px;
+	box-shadow: 0px 20px 60px rgb(42 61 126 / 8%);
 }
 
 .contact-detail:hover {
 	transform: translateY(-5px);
-	box-shadow: 0px 20px 60px rgb(42 61 126 / 8%);
 }
 
 .contact-detail i {
@@ -557,4 +580,24 @@ a:hover.back-to-top {
 		margin: auto 8px;
 		color: #1E84EC;
 	}
+
+	/* .projects .project-container .description {
+		position: relative;
+		z-index: 999;
+		box-shadow: 0px 20px 60px rgb(42 61 126 / 20%);
+		padding: 24px;
+		margin-left: -50px;
+		background: #FFF;
+		border-radius: .5em;
+	}
+
+	.projects .project-container .description.right {
+		margin-left: -100px;
+	}
+
+	.projects .project-container .description.left {
+		margin-right: -100px;
+	} */
+
+		
 }
