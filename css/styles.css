@@ -496,7 +496,7 @@ a:hover.back-to-top {
 	}
 
 	.skills li {
-		list-style:circle;
+		list-style: circle;
 	}
 
 	.projects {
@@ -573,6 +573,17 @@ a:hover.back-to-top {
 
 	.navbar .dropdown-divider {
 		width: 90%;
+	}
+
+	.offcanvas-collapse {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 40px;
+		padding: 0 1rem 0 1rem;
+		clip-path: none !important;
+		transition: all .7s ease-in-out;
 	}
 
 	/* Header */
